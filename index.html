@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Project 103</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"> </script>
+  </head>
+
+  <body>
+      <center>
+<h2>Family Member Identification</h2>
+<b class="people">
+    <hr>
+    Me
+    <hr>
+    Mom
+    <hr>
+    Grandma
+    <hr>
+    Grandpa
+    <hr>
+  </b>
+  <label>Webcam : </label>
+  <div id="webcam">
+  </div>
+  <br>
+  <br>
+  <div id="result">
+  </div>
+  <br>
+  <br>
+<button id="capture" onclick="snapshot()">Capture Image</button>
+  <br>
+  <br>
+<button id="identify" onclick="check()">Identify Image</button>
+  <br>
+  <br>
+<p>Object : <span id="object_name"></span> </p>
+<p >Accuracy : <span id="object_accuracy"></span></p>
+</center>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
